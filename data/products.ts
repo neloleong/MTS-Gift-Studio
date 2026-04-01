@@ -1,0 +1,375 @@
+export type Product = {
+  id: number;
+  productCode: string;
+  slug: string;
+  name: string;
+  category: string;
+  price: string;
+  minOrder: string;
+  image: string;
+  shortDescription: string;
+  description: string;
+  features: string[];
+};
+
+export const products: Product[] = [
+  {
+    id: 1,
+    productCode: "001",
+    slug: "chinese-wedding-candy-box",
+    name: "中式婚禮手提糖盒",
+    category: "婚禮回禮",
+    price: "價格可查詢",
+    minOrder: "可選 10 / 50 / 100 個裝",
+    image: "/images/chinese-wedding-candy-box.avif",
+    shortDescription: "中式喜慶風格手提糖盒，適合婚禮回禮及喜糖包裝使用。",
+    description:
+      "這款中式婚禮手提糖盒採用卡紙材質，方形設計，表面印花，整體風格偏中國風，適合婚禮場合作喜糖盒、回禮盒或小型伴手禮包裝。",
+    features: [
+      "品牌：多彩喜品",
+      "材質：卡紙",
+      "婚慶用品類型：糖盒 / 糖袋",
+      "風格：中國風",
+      "可包裝糖果數：約 12 顆",
+      "商品品類：糖盒",
+      "核心場景：婚禮",
+      "主體形狀：方形",
+      "核心人群：情侶 / 夫妻",
+      "表面工藝：印花",
+      "可放約 8-10 顆糖",
+      "可選紅卡喜禮手提盒、金色絲帶、雙喜、繁花喜禮等款式",
+    ],
+  },
+  {
+  id: 2,
+  productCode: "002",
+  slug: "european-wedding-candy-box",
+  name: "歐式燙金婚禮糖盒",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選 10 / 20 / 50 個裝",
+  image: "/images/european-wedding-candy-box.avif",
+  shortDescription: "歐式風格燙金婚禮糖盒，適合婚禮喜糖及回禮包裝使用。",
+  description:
+    "這款歐式婚禮糖盒採用卡紙材質，表面為啞光工藝，配合燙金與異形盒身設計，整體感覺較精緻優雅，適合婚禮回禮、喜糖包裝及宴會小禮物使用。",
+  features: [
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：歐式",
+    "裝飾元素：燙金",
+    "可包裝糖果數：約 8 顆",
+    "品牌：other / 其他",
+    "表面工藝：啞光",
+    "開合方式：卡扣",
+    "商品品類：糖盒",
+    "核心場景：婚禮",
+    "主體形狀：長方錐體",
+    "核心人群：所有",
+    "是否密封：不密封",
+    "小號尺寸：約 13 × 10 × 6.5",
+    "小號可放約 8 顆糖"
+  ],
+},
+{
+  id: 3,
+  productCode: "003",
+  slug: "champagne-burgundy-wedding-candy-box",
+  name: "香檳酒紅手繪婚禮糖盒",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號 10 / 20 / 50 個裝",
+  image: "/images/champagne-burgundy-wedding-candy-box.avif",
+  shortDescription: "歐式手繪插畫風婚禮糖盒，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款婚禮糖盒採用卡紙材質，整體風格偏歐式，配合手繪插畫元素，視覺上較柔和精緻，適合婚禮喜糖、回禮包裝及宴會小禮物使用。可選香檳色及酒紅色款式，並有愛心囍、雙囍及大囍等設計。",
+  features: [
+    "品牌：囍酉福",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：歐式",
+    "裝飾元素：手繪插畫",
+    "可包裝糖果數：5-8 顆金莎",
+    "可選小號",
+    "可選 10 / 20 / 50 個裝",
+    "可選香檳色、酒紅色"
+  ],
+},
+{
+  id: 4,
+  productCode: "004",
+  slug: "chinese-sticker-wedding-candy-box",
+  name: "中式貼紙婚禮喜糖盒",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號 / 中號，10 / 50 / 100 個裝",
+  image: "/images/chinese-sticker-wedding-candy-box.avif",
+  shortDescription: "中式喜慶風貼紙糖盒，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款婚禮喜糖盒採用卡紙材質，整體風格偏中國風，配合貼紙裝飾元素，適合婚禮喜糖、回禮包裝及宴會小禮物使用。可選酒紅色及大紅色，並有怦然心動、花楹喜事及大喜等款式。",
+  features: [
+    "品牌：洵曜",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：中國風",
+    "裝飾元素：貼紙",
+    "核心場景：婚禮",
+    "規格類型：正常規格",
+    "可選小號",
+    "可選 10 / 50 / 100 個裝",
+    "可選酒紅色、大紅色",
+    "可選怦然心動、花楹喜事、大喜款式"
+  ],
+},
+{
+  id: 5,
+  productCode: "005",
+  slug: "red-tassel-wedding-candy-gift-box",
+  name: "紅色流蘇婚禮喜糖禮盒",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選 6 / 8 / 10 / 12 / 16 / 20 粒裝",
+  image: "/images/red-tassel-wedding-candy-gift-box.png",
+  shortDescription: "中式紅色流蘇喜糖禮盒，適合婚禮回禮及喜糖成品禮盒使用。",
+  description:
+    "這款紅色流蘇婚禮喜糖禮盒採用中式喜慶設計，配有流蘇、喜字及燙金裝飾元素，整體視覺喜慶大方，適合婚禮喜糖、回禮禮盒及宴會送禮使用。產品為成品禮盒款式，可選多種盒型、主題及糖果數量組合。",
+  features: [
+    "系列：流蘇款喜糖成品禮盒",
+    "核心場景：婚禮",
+    "包裝方式：散裝",
+    "淨含量：10g",
+    "可選 6 / 8 / 10 / 12 / 16 / 20 粒裝",
+    "可選流蘇款、方盒款、手提款、燙金款、經典款、滿月禮盒等款式",
+    "可選吾家喜事、喜結良緣、雙喜、百年好合等主題",
+    "中式紅色喜慶設計",
+    "附流蘇及喜字裝飾",
+    "適合婚禮喜糖及成品回禮禮盒"
+  ],
+},
+{
+  id: 6,
+  productCode: "006",
+  slug: "dragon-phoenix-wedding-candy-box-wine-red",
+  name: "龍鳳呈祥婚禮糖盒（酒紅色）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選大號 / 小號",
+  image: "/images/dragon-phoenix-wedding-candy-box-wine-red.avif",
+  shortDescription: "國潮風婚禮糖盒，酒紅色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款龍鳳呈祥婚禮糖盒採用卡紙材質，整體風格偏國潮，配有燙金、絲帶及木環裝飾，視覺上喜慶而精緻，適合婚禮喜糖、回禮包裝及宴會小禮物使用。此款為酒紅色版本。",
+  features: [
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：國潮",
+    "裝飾元素：絲帶",
+    "核心場景：婚禮",
+    "主體形狀：異形",
+    "核心人群：情侶 / 夫妻",
+    "表面工藝：燙金",
+    "可選大號 / 小號",
+    "酒紅色【龍鳳呈祥】+ 燙金絲帶 + 木環"
+  ],
+},
+{
+  id: 7,
+  productCode: "007",
+  slug: "dragon-phoenix-wedding-candy-box-pink",
+  name: "龍鳳呈祥婚禮糖盒（粉色）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選大號 / 小號",
+  image: "/images/dragon-phoenix-wedding-candy-box-pink.avif",
+  shortDescription: "國潮風婚禮糖盒，粉色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款龍鳳呈祥婚禮糖盒採用卡紙材質，整體風格偏國潮，配有燙金、絲帶及木環裝飾，視覺上柔和而精緻，適合婚禮喜糖、回禮包裝及宴會小禮物使用。此款為粉色版本。",
+  features: [
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：國潮",
+    "裝飾元素：絲帶",
+    "核心場景：婚禮",
+    "主體形狀：異形",
+    "核心人群：情侶 / 夫妻",
+    "表面工藝：燙金",
+    "可選大號 / 小號",
+    "粉色【龍鳳呈祥】+ 燙金絲帶 + 木環"
+  ],
+},
+{
+  id: 8,
+  productCode: "008",
+  slug: "dragon-phoenix-wedding-candy-box-blue",
+  name: "龍鳳呈祥婚禮糖盒（藍色）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選大號 / 小號",
+  image: "/images/dragon-phoenix-wedding-candy-box-blue.avif",
+  shortDescription: "國潮風婚禮糖盒，紫色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款龍鳳呈祥婚禮糖盒採用卡紙材質，整體風格偏國潮，配有燙金及絲帶裝飾，設計喜慶中帶高級感，適合婚禮喜糖、回禮包裝及宴會小禮物使用。此款為紫色版本。",
+  features: [
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：國潮",
+    "裝飾元素：絲帶",
+    "核心場景：婚禮",
+    "主體形狀：異形",
+    "核心人群：情侶 / 夫妻",
+    "表面工藝：燙金",
+    "可選大號 / 小號",
+    "紫色【龍鳳呈祥】+ 燙金絲帶"
+  ],
+},
+{
+  id: 9,
+  productCode: "009",
+  slug: "embossed-wedding-candy-box-wine-red",
+  name: "浮雕絲帶婚禮糖盒（酒紅色）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號",
+  image: "/images/embossed-wedding-candy-box-wine-red.avif",
+  shortDescription: "歐式浮雕婚禮糖盒，酒紅色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款婚禮糖盒採用卡紙材質，整體風格偏歐式，配有絲帶裝飾，表面使用浮雕工藝，視覺上精緻大方，適合婚禮喜糖、回禮包裝及宴會小禮物使用。此款為酒紅色版本。",
+  features: [
+    "品牌：锦吱",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：歐式",
+    "裝飾元素：絲帶",
+    "核心場景：婚禮",
+    "規格類型：正常規格",
+    "表面工藝：浮雕",
+    "可選小號",
+    "酒紅色金色絲帶款"
+  ],
+},
+{
+  id: 10,
+  productCode: "010",
+  slug: "embossed-wedding-candy-box-white",
+  name: "浮雕絲帶婚禮糖盒（白色）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號",
+  image: "/images/embossed-wedding-candy-box-white.avif",
+  shortDescription: "歐式浮雕婚禮糖盒，白色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款婚禮糖盒採用卡紙材質，整體風格偏歐式，配有絲帶裝飾，表面使用浮雕工藝，風格簡潔柔和，適合婚禮喜糖、回禮包裝及宴會小禮物使用。此款為白色版本。",
+  features: [
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：歐式",
+    "裝飾元素：絲帶",
+    "核心場景：婚禮",
+    "規格類型：正常規格",
+    "表面工藝：浮雕",
+    "可選小號 ",
+    "白色金色絲帶款"
+  ],
+},
+{
+  id: 11,
+  productCode: "011",
+  slug: "square-wedding-candy-box-peach-pink",
+  name: "方形中式婚禮糖盒（桃之夭夭－粉）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號 10 / 20 / 50 個裝",
+  image: "/images/square-wedding-candy-box-peach-pink.avif",
+  shortDescription: "中式方形婚禮糖盒，粉色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款方形中式婚禮糖盒採用卡紙材質，表面以印花工藝呈現，整體風格溫柔喜慶，適合婚禮喜糖、回禮包裝及節慶活動小禮物使用。此款為桃之夭夭粉色版本。",
+  features: [
+    "品牌：西雅歌",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：中式",
+    "可包裝糖果數：約 20 顆",
+    "表面工藝：印花",
+    "核心場景：婚禮",
+    "主體形狀：方形",
+    "核心人群：節慶 / 活動人群",
+    "是否密封：不密封",
+    "可選小號",
+    "可選 10 / 20 / 50 個裝",
+    "桃之夭夭－粉"
+  ],
+},
+{
+  id: 12,
+  productCode: "012",
+  slug: "square-wedding-candy-box-bright-red",
+  name: "方形中式婚禮糖盒（灼灼其華－紅）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號 10 / 20 / 50 個裝",
+  image: "/images/square-wedding-candy-box-bright-red.avif",
+  shortDescription: "中式方形婚禮糖盒，紅色款，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款方形中式婚禮糖盒採用卡紙材質，表面以印花工藝呈現，整體風格喜慶大方，適合婚禮喜糖、回禮包裝及節慶活動小禮物使用。此款為灼灼其華紅色版本。",
+  features: [
+    "品牌：西雅歌",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：中式",
+    "可包裝糖果數：約 20 顆",
+    "表面工藝：印花",
+    "核心場景：婚禮",
+    "主體形狀：方形",
+    "核心人群：節慶 / 活動人群",
+    "是否密封：不密封",
+    "可選小號",
+    "可選 10 / 20 / 50 個裝",
+    "灼灼其華－紅"
+  ],
+},
+{
+  id: 13,
+  productCode: "013",
+  slug: "burgundy-sakura-wedding-candy-bag",
+  name: "酒紅櫻花燙金手提喜糖袋",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "多款套餐可選",
+  image: "/images/burgundy-sakura-wedding-candy-bag.png",
+  shortDescription: "酒紅色櫻花燙金手提喜糖袋，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款酒紅色櫻花手提喜糖袋以中式喜慶設計為主，配有金色喜字吊牌、蝴蝶結及提手，整體視覺精緻大方，適合婚禮喜糖、回禮小禮物及宴會送禮使用。產品為成品喜糖袋款式，可配多種套餐選擇。",
+  features: [
+    "系列：Y08 酒紅色櫻花袋",
+    "糖果類型：喜糖",
+    "包裝方式：包裝",
+    "尺寸：Y08 酒紅色櫻花燙金手提袋（金色喜字吊牌）",
+    "酒紅色櫻花圖案設計",
+    "附金色喜字吊牌",
+    "適合婚禮喜糖及成品回禮袋"
+  ],
+},
+{
+  id: 14,
+  productCode: "014",
+  slug: "palace-style-wedding-candy-box",
+  name: "宮廷風中式婚禮糖盒",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號",
+  image: "/images/palace-style-wedding-candy-box.avif",
+  shortDescription: "宮廷風中式婚禮糖盒，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款宮廷風中式婚禮糖盒採用卡紙材質，整體設計偏中國風，配合宮廷風裝飾元素，適合婚禮喜糖、回禮包裝及宴會小禮物使用。產品可選不同尺寸，並可搭配不同花紋與卡片顏色，亦支援吊牌定制。",
+  features: [
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：中國風",
+    "裝飾元素：宮廷風",
+    "可選小號",
+  ],
+},
+
+];
+
+export function getProductBySlug(slug: string) {
+  return products.find((product) => product.slug === slug);
+}
