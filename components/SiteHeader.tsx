@@ -4,9 +4,19 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-[#e7ddd0] bg-[#f8f5ef]/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-2xl font-bold tracking-wide text-[#5a4632]">
-          MTS Gift Studio
-        </Link>
+        <Link href="/" className="group inline-block">
+          <div className="flex items-center gap-3">
+            <div className="h-10 w-10 rounded-full bg-[#a67c52]/15" />
+            <div className="flex flex-col leading-none">
+              <span className="text-3xl font-extrabold tracking-[0.08em] text-[#5a4632]">
+                MTS
+              </span> 
+              <span className="mt-1 text-[11px] uppercase tracking-[0.35em] text-[#a67c52]">
+                Gift Studio
+              </span>
+            </div>
+          </div>
+      </Link>
 
         <nav className="hidden gap-8 md:flex">
           <Link href="/" className="text-sm font-medium hover:text-[#a67c52]">
