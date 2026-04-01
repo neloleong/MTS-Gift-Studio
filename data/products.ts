@@ -367,6 +367,81 @@ export const products: Product[] = [
     "可選小號",
   ],
 },
+{
+  id: 15,
+  productCode: "015",
+  slug: "national-style-tassel-wedding-candy-box",
+  name: "國潮流蘇婚禮糖盒",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號",
+  image: "/images/national-style-tassel-wedding-candy-box.avif",
+  shortDescription: "國潮流蘇婚禮糖盒，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款國潮風婚禮糖盒採用錦緞材質，配有流蘇裝飾元素，整體設計偏中式喜慶風格，適合婚禮喜糖、回禮包裝及宴會小禮物使用。可選不同尺寸及多種主題款式。",
+  features: [
+    "材質：錦緞",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：國潮",
+    "裝飾元素：流蘇",
+    "核心場景：婚禮",
+    "可選小號 / 中號 / 大號",
+    "小號約 14cm × 15cm（建議 6-8 顆糖）",
+    "可選酒紅流蘇、金色流蘇、喜鵲報喜等款式",
+    "可選喜字款、珍珠款、無配件款",
+    "可選家有喜事、吾家有喜、平安喜樂、家添萌寶、喜樂等主題"
+  ],
+},
+{
+  id: 16,
+  productCode: "016",
+  slug: "hollow-double-happiness-wedding-candy-box",
+  name: "鏤空中式婚禮糖盒（囍字款）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號",
+  image: "/images/hollow-double-happiness-wedding-candy-box.avif",
+  shortDescription: "中式鏤空囍字婚禮糖盒，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款中式婚禮糖盒採用卡紙材質，整體設計偏中國風，配合鏤空囍字圖案與皮繩裝飾，視覺上喜慶大方，適合婚禮喜糖、回禮包裝及宴會小禮物使用。可選不同尺寸及配繩款式。",
+  features: [
+    "品牌：享遇",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：中國風",
+    "核心場景：婚禮",
+    "規格類型：正常規格",
+    "可選小號",
+    "鏤空部位已清除",
+    "百年好合款",
+    "可選金皮繩、酒紅皮繩"
+  ],
+},
+{
+  id: 17,
+  productCode: "017",
+  slug: "hollow-hundred-years-of-harmony-wedding-candy-box",
+  name: "鏤空中式婚禮糖盒（百年好合款）",
+  category: "婚禮回禮",
+  price: "價格可查詢",
+  minOrder: "可選小號",
+  image: "/images/hollow-hundred-years-of-harmony-wedding-candy-box.avif",
+  shortDescription: "中式鏤空百年好合婚禮糖盒，適合婚禮回禮及喜糖包裝使用。",
+  description:
+    "這款中式婚禮糖盒採用卡紙材質，整體設計偏中國風，配合鏤空百年好合圖案與皮繩裝飾，視覺上典雅喜慶，適合婚禮喜糖、回禮包裝及宴會小禮物使用。可選不同尺寸及配繩款式。",
+  features: [
+    "品牌：享遇",
+    "材質：卡紙",
+    "婚慶用品類型：糖盒 / 糖袋",
+    "風格：中國風",
+    "核心場景：婚禮",
+    "規格類型：正常規格",
+    "可選小號",
+    "鏤空部位已清除",
+    "百年好合款",
+    "可選金皮繩、酒紅皮繩"
+  ],
+},
 
 ];
 
