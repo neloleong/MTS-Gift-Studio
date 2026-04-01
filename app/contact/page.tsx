@@ -79,7 +79,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  placeholder="例如：每份約 HK$20-HK$30"
+                  placeholder="例如：每份約 MOP 20-MOP 30"
                   className="w-full rounded-2xl border border-[#d8c8b7] bg-[#fffdf9] px-4 py-3 text-sm outline-none focus:border-[#a67c52]"
                 />
               </div>
@@ -119,10 +119,10 @@ export default function ContactPage() {
               聯絡方式
             </h2>
             <div className="space-y-3 text-sm leading-8 text-[#6c5846]">
-              <p>WhatsApp：+853 0000 0000</p>
-              <p>Email：hello@mts.com</p>
-              <p>服務地區：澳門、香港、大灣區</p>
-              <p>查詢時間：星期一至星期六 10:00 - 18:30</p>
+              <p>WhatsApp：+853 6208 0722</p>
+              <p>Email：joshleong5@gmail.com</p>
+              <p>服務地區：澳門</p>
+              <p>查詢時間：隨時</p>
             </div>
 
             <div className="mt-8 rounded-2xl bg-[#f8f3ec] p-5">
